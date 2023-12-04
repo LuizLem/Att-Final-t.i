@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'poppinsregular', sans-serif;
+    margin: 0 auto;
+    }
+    
+    .menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+    }
+    main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    }
+    .logo {
+     float: left;
+     padding: 10px;
+     width: 70%;
+    }
+    
+    
+    
+    .busca {
+        text-align: center;
+        width: 30%;
+        float: right;
+    }
+    .busca input {
+        background-image: url(../img/icone-search.png);
+        background-repeat: no-repeat;
+        height: 36px;
+        padding: 12px;
+        width: 190px;
+        margin-top: 10px;
+        background-position: 96%;
+        border: 1px solid #d6d6d6;
+    }
+    .col-100 {
+        width: 85%;
+        float: left;
+        position: relative;
+    }
+    
+    .texto-destaque {
+        text-align: center;
+    }
+    .texto-destaque strong {
+        color: #646464;
+    }
+    .texto-destaque h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #000000;
+    }
+    .texto-destaque p {
+        font-size: 25px;
+        color: #000000;
+    }
+    
+    .col-3 {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px; 
+        width: 29%;
+        float: left;
+        position: relative;
+    }
+    .bloco-imagem img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .bloco-imagem {
+        height: 300px;
+        border: 1px solid #c5c5c5;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+    .bloco-imagem b, p {
+        text-align: justify;
+    }
+    .bloco-texto {
+        margin-top: 3em;
+    }
+    
+    h3 {
+        font-weight: normal!important;
+    }
+    
+    .bloco-imagens-texto {
+        background-color: #e2e2e7;
+    }
+  
+    .bloco-imagens-texto:after {
+        width: 100%;
+        display: inline-block;
+        content: '';
+        height: 50px;
+        background: #eeeeee;
+    } 
